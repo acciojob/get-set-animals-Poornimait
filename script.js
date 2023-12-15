@@ -17,7 +17,7 @@ class Dog extends Animal {
 		console.log("woof");
 	}
 	makeSound() {
-    console.log(`sound the ${species} makes`); // Corrected to use the getter method
+    console.log(`The ${species} makes a sound`); 
   }
 }
 
@@ -26,7 +26,7 @@ class Cat extends Animal {
 		console.log("purr");
 	}
 	makeSound() {
-    console.log(`sound the ${species} makes`); 
+    console.log(`The ${species} makes a sound`); 
   }
 }
 
